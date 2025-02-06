@@ -114,7 +114,8 @@ body{
 } */
 
 .main-content {
-    width: 700px;
+    width: 80%;
+    max-width: 600px;
     height: 200px;
     background-color: rgb(194, 194, 194);
     text-align: center;
