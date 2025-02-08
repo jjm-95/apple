@@ -210,7 +210,100 @@ body{
     width: 120px;
     height: 30px;
     background-color: orange;
+    font-weight: bold;
     color: white;
     border: none;
     border-radius: 3px;
+}
+
+.from-btn button:hover{
+    background-color: chocolate;
+}
+td,th {
+    border: 1px solid black;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+.cart {
+    padding: 30px;
+    background-color: aquamarine;
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cart-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid aquamarine;
+    border-radius: 12px;
+    
+}
+
+.table-item img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    margin-bottom: 0;
+}
+
+.table-item div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+
+.cart-table td p{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.cart-table td, .cart-table tr{
+    border: none;
+    border-top: 2px solid aquamarine;
+}
+
+.cart-table button {
+    background-color: darkslateblue !important;
+    
+}
+
+
+
+
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: chocolate;
+    
+}
+
+.btn:active {
+    background-color: brown;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.bg-red {
+    background: red;
 }
