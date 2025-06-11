@@ -1,0 +1,182 @@
+body {
+  margin: 0 0;
+  /* background-color: grey; */
+}
+
+header {
+  width: 100%;
+  height: 25rem;
+  background: linear-gradient(#6cb9fc, #4e61c0);
+}
+
+header section {
+  height: calc(100% - 4rem);
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem;
+  padding-bottom: 0;
+  padding-top: 4rem;
+}
+
+#headerContent {
+  width: 30%;
+  color: whitesmoke;
+}
+
+#headerContent h1 {
+  margin: 0;
+  margin-bottom: 1.2rem;
+  font-size: 2.5rem;
+}
+
+#headerContent a {
+  text-decoration: none;
+  display: inline-block;
+
+  background-color: #444445;
+  padding: 1rem;
+
+  border-radius: 8px;
+  color: whitesmoke;
+}
+
+header section img {
+  height: 100%;
+  width: auto;
+}
+main {
+  width: 100%;
+}
+
+#mainSectionFirst {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  width: 100%;
+  height: 10rem;
+}
+
+#mainSectionFirst div {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+#mainSectionFirst div p a {
+  text-decoration: none;
+  display: inline-block;
+
+  background-color: #444445;
+  padding: 1rem;
+
+  border-radius: 8px;
+  color: whitesmoke;
+}
+
+#mainSectionSeconde {
+  width: 100%;
+  height: 20rem;
+  background-color: #4e61c0;
+  color: white;
+  padding: 4rem 0;
+}
+#mainSectionSeconde div {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#mainSectionSeconde .icon {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #4e61c0;
+}
+
+.SectionContent {
+  padding-bottom: 2rem;
+}
+.SectionContent p {
+  margin: 0;
+}
+.SectionContent h2 {
+  margin-top: 0;
+}
+
+#mainSectionSeconde li h2 {
+  margin: 0;
+}
+
+#mainSectionSeconde ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#mainSectionThird {
+  width: 100%;
+  height: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#mainSectionThird #Grid {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: left;
+}
+.portfolio {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  box-shadow: 0 0 0 0px white inset;
+  transition: 0.5s;
+}
+
+#Grid div div {
+  padding: 2rem;
+}
+
+
+.portfolio:hover {
+box-shadow: 0 0 0 30px white inset;
+}
+
+footer {
+  margin-top: 0;
+  padding-bottom: 6rem;
+  height: 10rem;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+footer li {
+  margin: 1.5rem;
+  margin-top: 0;
+  background-color: #4e61c0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+footer a {
+  color: white;
+}

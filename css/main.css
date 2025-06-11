@@ -1,106 +1,104 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 
 .profile {
-    width: 100px; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
-    text-align: center;
-    font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .content {
-    text-align: center;
+  text-align: center;
 }
 
 .box {
-    width: 200px;
-    background-color: burlywood;
-    margin: 10px;
-    padding: 40px;
-    border-radius: 5px; 
-    margin-left: auto; 
-    margin-right: auto;
+  width: 200px;
+  background-color: burlywood;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 
-    font-size: 10px;
-    font-weight: bold;
-    box-shadow: 5px 5px gray;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 5px 5px gray;
 }
 
 .container {
-    width: 800px;
+  width: 800px;
 }
 
 .header {
-    width: 100%;
-    height: 50px;
-    background-color: aquamarine;
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
 }
 
 .left-menu {
-    width: 20%;
-    height: 400px;
-    background-color: cornflowerblue;
-    display: inline-block;
-    vertical-align: top;
-    /* float: left; */
+  width: 20%;
+  height: 400px;
+  background-color: cornflowerblue;
+  display: inline-block;
+  vertical-align: top;
+  /* float: left; */
 }
 
-.right-content{
-    width: 80%;
-    height: 400px;
-    background-color: coral;
-    display: inline-block;
-    /* float: right; */
+.right-content {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  display: inline-block;
+  /* float: right; */
 }
 
-.footer{
-    width: 100%;
-    height: 100px;
-    background-color: gray;
-    /* clear: both; */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+  /* clear: both; */
 }
 
 .main-background {
-    width: 100%;
-    height: 500px;
-    background-image: url(../css/image1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 1px;
-    position: relative;
-    
+  width: 100%;
+  height: 500px;
+  background-image: url(../css/image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  position: relative;
 }
 
 .main-title {
-    margin-left: 10px;
-    color: white;
-    font-size: 40px;
-    margin-top: 100px;
-    margin-bottom: auto;
+  margin-left: 10px;
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: auto;
 }
 
 .main-background p {
-    margin-left: 15px;
-    color:wheat;
-    font-size: 12px;
+  margin-left: 15px;
+  color: wheat;
+  font-size: 12px;
 }
 
 .main-btn {
-    width: 100px;
-    height: 40px;
-    margin-left: 15px;
-    background-color: rgba(0, 0, 0, 0.788);
-    border-radius: 10%;
-    color: white;
-    border-color: rgba(0, 0, 0, 0.158);
-
+  width: 100px;
+  height: 40px;
+  margin-left: 15px;
+  background-color: rgba(0, 0, 0, 0.788);
+  border-radius: 10%;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.158);
 }
 
 /* .main-btn a{
@@ -114,196 +112,290 @@ body{
 } */
 
 .main-content {
-    width: 80%;
-    max-width: 600px;
-    height: 200px;
-    background-color: rgb(194, 194, 194);
-    text-align: center;
-    position: absolute;
-    top: 95%;
-    left: 25%;
+  width: 80%;
+  max-width: 50%;
+  height: 200px;
+  background-color: rgb(194, 194, 194);
+  text-align: center;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%);
 }
 .main-content p {
-    color: black;
-    margin: 0px;
+  color: black;
+  margin: 0px;
 }
 
 .text-input {
-    padding: 10px;
-    font-size: 20px;
-    border: 2px solid gray;
-    border-radius: 5px;
-
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
 
 .homework-form {
-    width: 350px;
-    height: 400px;
-    background-color: white;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-    padding: 40px;
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  padding: 40px;
 }
 
-.homework-form p{
-    margin-bottom: 5px;
+.homework-form p {
+  margin-bottom: 5px;
 }
 .homework-form input {
-    height: 30px;
-    border: 1px solid rgb(179, 175, 175);
-    border-radius: 3px;
+  height: 30px;
+  border: 1px solid rgb(179, 175, 175);
+  border-radius: 3px;
 }
 
-.homework-form input[type=email] {
-    width: 100%;
+.homework-form input[type="email"] {
+  width: 100%;
 }
 .name {
-    width: 100%;
+  width: 100%;
 }
 .form-left {
-    width: 45%;
-    float: left;
+  width: 45%;
+  float: left;
 }
 .form-right {
-    width: 45%;
-    float: right;
+  width: 45%;
+  float: right;
 }
-.name input[type=text] {
-    width: 100%;
+.name input[type="text"] {
+  width: 100%;
 }
 
 .Message {
-    margin-top: 90px;
-    width: 100%;
-    clear: both;
+  margin-top: 90px;
+  width: 100%;
+  clear: both;
 }
-.Message p{
-    width: 40%;
-    margin-bottom: 5px
-}
-
-.Message input{
-    width: 100%;
-    height: 100px;
-
+.Message p {
+  width: 40%;
+  margin-bottom: 5px;
 }
 
-.form-btn{
-    width: 100%; 
-    margin-top: 30px
+.Message input {
+  width: 100%;
+  height: 100px;
 }
 
-.form-btn input[type=checkbox] {
-    vertical-align: middle;
+.form-btn {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.form-btn input[type="checkbox"] {
+  vertical-align: middle;
 }
 
 .form-btn p {
-    vertical-align: middle; 
-    display: inline-block; 
-    margin: 0; 
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
 }
 
 .form-btn button {
-    float: right;
-    width: 120px;
-    height: 30px;
-    background-color: orange;
-    font-weight: bold;
-    color: white;
-    border: none;
-    border-radius: 3px;
+  float: right;
+  width: 120px;
+  height: 30px;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
 }
 
-.from-btn button:hover{
-    background-color: chocolate;
+.from-btn button:hover {
+  background-color: chocolate;
 }
-td,th {
-    border: 1px solid black;
+td,
+th {
+  border: 1px solid black;
 }
-
-
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 .cart {
-    padding: 30px;
-    background-color: aquamarine;
-    width: 700px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+  padding: 30px;
+  background-color: aquamarine;
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cart-table {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border: 1px solid aquamarine;
-    border-radius: 12px;
-    
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid aquamarine;
+  border-radius: 12px;
 }
 
-.table-item img{
-    display: inline-block;
-    vertical-align: middle;
-    width: 60px;
-    margin-bottom: 0;
+.table-item img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  margin-bottom: 0;
 }
 
-.table-item div{
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 0;
+.table-item div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
 }
 
-
-.cart-table td p{
-    text-align: right;
-    padding-right: 20px;
+.cart-table td p {
+  text-align: right;
+  padding-right: 20px;
 }
 
-.cart-table td, .cart-table tr{
-    border: none;
-    border-top: 2px solid aquamarine;
+.cart-table td,
+.cart-table tr {
+  border: none;
+  border-top: 2px solid aquamarine;
 }
 
 .cart-table button {
-    background-color: darkslateblue !important;
-    
+  background-color: darkslateblue !important;
 }
 
-
-
-
 .btn {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    background-color: coral;
-    color: white;
-    cursor: pointer;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: chocolate;
-    
 }
 
 .btn:active {
-    background-color: brown;
+  background-color: brown;
 }
 
 .bg-blue {
-    background: blue;
+  background: blue;
 }
 
 .bg-red {
-    background: red;
+  background: red;
+}
+
+.nav-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.nav-container :first-child {
+  flex-grow: 4;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.active-layout {
+  display: flex;
+  margin: 30vh auto;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.active-layout div :first-child {
+  font-weight: bold;
+}
+
+.active-layout i {
+  background-color: burlywood;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 30px;
+}
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 0.6rem;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 100%;
+  background: black;
+  opacity: 0.5;
+  transition: all 1s;
+}
+
+.shop-item:hover .overlay {
+  opacity: 0.5;
+  top: 50%;
+}
+
+.shop-item img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .active-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .active-layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .nav-item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
 }

@@ -1,0 +1,24 @@
+.active-layout {
+    display: flex;
+    margin: 30vh auto;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.active-layout div :first-child{
+    font-weight:bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .active-layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .active-layout{
+        display: flex;
+        flex-direction: column;
+    }
+}
